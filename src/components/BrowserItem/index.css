@@ -1,0 +1,59 @@
+.time {
+  color: #475569;
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-right: 25px;
+}
+.img {
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+}
+.title {
+  font-size: 11px;
+  font-weight: bold;
+  color: #475569;
+  margin-right: 7px;
+}
+.url {
+  color: #64748b;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+.item {
+  display: flex;
+  height: 35px;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+.list-item {
+  width: 650px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 8px;
+}
+.delete-button {
+  border-width: 0px;
+  background-color: #ffffff;
+}
+.delete-img {
+  width: 12px;
+  height: 12px;
+}
+@media screen and (max-width: 576px) {
+  .last-item {
+    width: 350px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 8px;
+  }
+}
